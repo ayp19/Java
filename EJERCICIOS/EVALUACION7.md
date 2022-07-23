@@ -48,6 +48,9 @@ clara, según sea el caso.
 8. Identifica las partes de una clase:
 
 ![image](https://user-images.githubusercontent.com/91554777/180586095-9353e40d-fa61-4852-aa52-8e59dc773efd.png)
+file:///home/linux/Escritorio/shot-2022-07-23_16-12-22.jpg
+
+
 
 9. Deberás crear un programa que forme parte de un módulo para el sistema de una
 estética de perros. El programa deberá de contener lo siguiente: (Valor 2 puntos)
@@ -70,5 +73,29 @@ siguiente procedimiento:
   v. Imprimir la cantidad de perros que se encuentran en la estética con el
   siguiente mensaje: Perros actuales en la estética: “Número de
   perros”.
+  
+  ´´´
+ import java.util.ArrayList;
+  public class RecibeMascota {
+      String nombrePerro;// Nombre del perro,
+      int edad; // Edad del perro
+      String raza; // raza del perro
+      String tamano; // tamano del perro
+      String nombreDueno; // Nombre completo del dueno
+      public static void main(String args[]) {
+        // Creamos un arreglo de tipo RecibePerro
+          ArrayList<RecibeMascota> perrosActuales = new ArrayList();
+  // Hacemos una instancia y creamos un objeto de tipo RecibeMascota
+          RecibeMascota estetica = new RecibeMascota();
+          estetica.nombrePerro = "Tito";
+          estetica.edad = 2;
+          estetica.raza = "macho";
+          estetica.tamano= "chico";
+          estetica.nombreDueno = "Juan Morales";
+          perrosActuales.add(estetica);
+          System.out.println("Mascotas actuales en la estetica: " + perrosActuales.size());
+      }
 
+  }
+´´´
             TU CODIGO AQUI
