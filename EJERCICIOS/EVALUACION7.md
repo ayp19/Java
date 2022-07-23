@@ -74,7 +74,7 @@ siguiente procedimiento:
   siguiente mensaje: Perros actuales en la estética: “Número de
   perros”.
   
-  ´´´
+ 
  import java.util.ArrayList;
   public class RecibeMascota {
       String nombrePerro;// Nombre del perro,
