@@ -34,9 +34,7 @@ sea "Java"? (Valor 1 punto)
 5. ¿Qué opción es un nombre de variable válido y sigue las convenciones de
 nomenclatura de Java? (Valor 1 punto)
 
-          a. 2ndPhoneNumber
-          b. TimeUntilLaunch
-          c. second_phone_number
+          
           d. timeUntilLaunch
 
 6. ¿Qué línea de código declara una variable llamada numConejos para almacenar
@@ -62,6 +60,8 @@ se muestra a continuación: (Valor 2 puntos)
                        String nombre = "James Gosling";
 
                        int yearCreado = 1995;
+                       System.out.println(nombre);
+                       System.out.println(yearCreado);
 
                       }
 
