@@ -9,10 +9,10 @@ clara, según sea el caso.
 
 1. ¿Qué es un arreglo? (Valor 1 punto)
 
-        a. Datos o valores en un arreglo
+       
         b. Son colecciones de variables de un mismo tipo que se referencian utilizando
         un nombre común.
-        c. Conjunto de variables del mismo tipo cuyo acceso se realiza por índice
+       
         
 2. De la siguiente ilustración de un arreglo, coloca los elementos según corresponda.
 (Valor 1 punto)
