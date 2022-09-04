@@ -52,19 +52,17 @@ String username2 = "gigacoder";
 
 int status = 7 < 8;
 
-          a. Sí, int debería se char.
+          
           b. Sí, int debería ser boolean.
-          c. Sí, no debería de haber un punto y como.
-          d. No hay error.
+         
 
 7. ¿Cuál es el resultado de la siguiente concatenación de cadenas? (Valor 1 punto)
 
 "Son las " + 5 + "pm"
 
-          a. "Son las pm"
-          b. Error
+        
           c. "Son las 5pm" ---
-          d. 11
+        
 
 
 8. Después de ejecutar el siguiente código, ¿cuál será el valor de la variable
@@ -72,11 +70,9 @@ endpoint? (Valor 1 punto)
 
 int endpoint = 11 % 3;
 
-          a. 1
-          b. 11
+       
           c. 2.66
-          d. 2
-          e. 11
+        
 
 
 9. Supón que intentamos construir algunas de las funciones de una cuenta bancaria.
@@ -86,6 +82,17 @@ Considera el siguiente código (Valor 2 puntos)
               public static void main(String[] args){
                 double saldo = 1000.75;
                 double cantidadARetirar= 250;
+                double saldoActualizado=(saldo - cantidadARetirar);
+                double cantidadParaCadaAmigo =(saldoActualizado /3);
+                
+                boolean puedeComprarTicket: true;
+                
+                if cantidadParaAmigo =>250 
+                System.out.println("puede comprar ticket")
+                {
+                else 
+                System.out.println("no puede comprar ")
+                }
               }
             }
 
